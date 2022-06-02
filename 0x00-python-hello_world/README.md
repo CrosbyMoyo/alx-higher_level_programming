@@ -1,19 +1,26 @@
-# 0x00-python-hello_world
-## TASKS
-1. **0-run** - a shell script that runs a python script stored in the environmental variable `$PYFILE`.
-2. **1-run_inline** - a shell script that runs a python code saved in the variable `$PYCODE`.
-3. **2-print.py** - A python script that prints a string, followed by a new line
-4. **3-print_number.py** -  print the integer stored in the variable number, followed by Battery street, followed by a new line.
-5. **4-print_float.py** - print the float stored in the variable number with a precision of 2 digits.
-6. **5-print_string.py** - print 3 times a string stored in the variable str, followed by its first 9 characters.
-7. **6-concat.py** - print Welcome to Holberton School!
-8. **7-edges.py** -  should be exactly 8 lines long
-- word_first_3 should contain the first 3 letters of the variable word
-- word_last_2 should contain the last 2 letters of the variable word
-- middle_word should contain the value of the variable word without the first and last letters
-9. **8-concat_edges.py** - print object-oriented programming with Python, followed by a new line from a string.
-10. **9-easter_egg.py** - a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
-11. **10-check_cycle.c** - *Technical Interview Preparation*. Contains a function in C that checks if a singly linked list has a cycle in it.
-12. **100-write.py** - Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
-13. **101-compile** - A shell script that compiles a python script file.
-14. **102-magic_calculation.py** - A python script that contains python code of the same bytecode representation
+# Hello, World
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about variables, basics commands (print) and handle strings with **Python**.
+
+## Technologies
+* Shell Scripts are written in Bash 4.3.11(1)
+* Python Scripts are written with Python 3.4.3
+* C files are compiled using `gcc 4.8.4`
+* Tested on Ubuntu 14.04 LTS
+
+## Files
+| Filename | Description |
+| -------- | ----------- |
+| `0-run` | Shell script that runs a Python script, where its name is stored in an environment variable |
+| `1-run_inline` | Shell script that runs a Python script, where Python code is saved in an environment variable |
+| `2-print.py` | Python script that prints a message |
+| `3-print_number.py` | Prints a message with print function, using format |
+| `4-print_float.py` | Prints a float with print function, using format and precission |
+| `5-print_string.py` | Prints 3 times a string using print function with format |
+| `6-concat.py` | Concatenates strings and prints the result |
+| `7-edges.py` | Prints some letters of a string |
+| `8-concat_edges.py` | Prints some parts of a string |
+| `9-easter_egg.py` | Prints "The Zen of Python" |
+| `10-check_cycle.c` | C program that finds a loop in a linked list |
+| `100-write.py` | Python script that prints a message with `write` sys |
+| `101-compile` | Shell script that compiles a Python file |
+| `102-magic_calculation.py` | Python function that does exactly the same as a given disassembler |
